@@ -9,7 +9,6 @@ os.SF_SYNC
 posix.EX_NOTFOUND
 readline.append_history_file  # not defined in macos
 select.KQ_FILTER_NETDEV  # system dependent
-select.kqueue.__init__  # default C signature is wrong
 select.POLLMSG   # system dependent
 
 # Sometimes these seem to exist on darwin, sometimes not
