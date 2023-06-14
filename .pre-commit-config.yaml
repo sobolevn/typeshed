@@ -36,6 +36,10 @@ repos:
           - "flake8-pyi==23.5.0" # must match requirements-tests.txt
         types: [file]
         types_or: [python, pyi]
+  - repo: https://github.com/asottile/yesqa
+    rev: v1.5.0
+    hooks:
+      - id: yesqa
 
 ci:
   autofix_commit_msg: "[pre-commit.ci] auto fixes from pre-commit.com hooks"
