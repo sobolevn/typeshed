@@ -1,11 +1,11 @@
-from typing import Any
+from typing_extensions import Final
 
 def lxml_available(): ...
 def lxml_env_set(): ...
 
-LXML: Any
+LXML: Final[bool]
 
 def defusedxml_available(): ...
 def defusedxml_env_set(): ...
 
-DEFUSEDXML: Any
+DEFUSEDXML: Final[bool]
